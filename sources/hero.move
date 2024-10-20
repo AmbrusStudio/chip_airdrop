@@ -63,7 +63,6 @@ module demon_hunter::hero {
     &publisher, keys, values, ctx
     );
 
-    // 提交第一个版本`Display`
     // Commit first version of `Display` to apply changes.
     display::update_version(&mut display);
 
