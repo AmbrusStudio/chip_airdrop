@@ -1,0 +1,1 @@
+sui client call  --package 0xc60b2d67f34fe7cfc293ced798f464c93e8a87e47472d2044057ab2495a2884b   --module hero  --function   mint

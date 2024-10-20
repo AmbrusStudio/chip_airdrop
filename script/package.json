@@ -1,0 +1,33 @@
+{
+	"name": "script",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"fs-local": "ENV=local ts-node src/index.ts",
+		"fs-devnet": "ENV=devnet ts-node src/index.ts",
+		"fs-testnet": "ENV=testnet ts-node src/index.ts",
+		"fs-mainnet": "ENV=mainnet ts-node src/index.ts",
+		"test": "jest -i"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@mysten/sui": "^1.6.0",
+		"@mysten/zklogin": "^0.7.17",
+		"@noble/hashes": "^1.4.0",
+		"commander": "^12.1.0",
+		"dotenv": "^16.4.5",
+		"jose": "^5.6.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"@jest/globals": "^29.7.0",
+		"@types/jest": "^29.5.12",
+		"@types/node": "^20.12.7",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.1.5",
+		"ts-node": "^10.9.2"
+	}
+}
